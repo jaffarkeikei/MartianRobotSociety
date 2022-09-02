@@ -55,6 +55,12 @@ Indirect subordinates: These are subordinates that do not work directly under an
 DistrictLeader class
 DistrictLeader is a subclass of Citizen. While district leaders are fairly similar to a regular citizen, they also keep track of the district that they lead. All subordinates (both direct and indirect) are said to be part of (or "belong to") the district. For example, consider the following hierarchy (district leaders are highlighted in blue; attributes are labelled by name only for the root Citizen, to avoid clutter):
 
+
+
+![Uploading district_society.png…]()
+
+
+
 Diagram of a simple hierarchy with districts.
 
 Citizen ID: 5 is the DistrictLeader of the district named "Finance".  Because they are descendants of Citizen ID: 5, both the Citizens ID: 7 and ID: 9 are also considered to be in the "Finance" district. Additionally, since they're under Citizen ID: 6 in the hierarchy, who is the leader of "Area 52", they are also part of the "Area 52" district. In fact, all the citizens are part of the "Area 52" district because its leader is the roof of the society.
