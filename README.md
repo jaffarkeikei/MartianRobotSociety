@@ -42,7 +42,7 @@ Each citizen may have one superior and any number of subordinates. For example, 
 
 
 
-
+![simple_society](https://user-images.githubusercontent.com/94993837/188036124-0774da7e-57be-43f1-ae12-903aa1ff8f7a.png)
 
 
 
