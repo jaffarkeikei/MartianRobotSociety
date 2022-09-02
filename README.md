@@ -1,9 +1,9 @@
 Introduction
 
 
-It is the year 3142. Robots have finally overtaken the world, and their society involves a very strict hierarchy where every robot knows their place in society. (Also, it should be noted that humans had obviously re-located to Mars by this time, so the planet which the robots have overtaken is Mars, not Earth.) As we've discussed in class, trees are a fundamental data structure used to model all sorts of hierarchical data. In this assignment, you will be modelling the organization of the Martian Robot Society using trees.
+It is the year 3142. Robots have finally overtaken the world, and their society involves a very strict hierarchy where every robot knows their place in society. (Also, it should be noted that humans had obviously re-located to Mars by this time, so the planet which the robots have overtaken is Mars, not Earth.) This project models the organization of the Martian Robot Society using trees.
 
-Every robot in the Martian Robot Society is considered a citizen of Mars. The nodes in our tree will each represent one citizen. Citizens all have subordinate-superior relationships, where one citizen may work under another. Additionally, some citizens are leaders of a specific district within the society. All citizens that work under a leader are considered part of that district.
+Every robot in the Martian Robot Society is considered a citizen of Mars. The nodes in the tree will each represent one citizen. Citizens all have subordinate-superior relationships, where one citizen may work under another. Additionally, some citizens are leaders of a specific district within the society. All citizens that work under a leader are considered part of that district.
 
 Note that a district could be a geographical area, or just a domain of responsibility, like Finance.
 
@@ -19,30 +19,32 @@ society_ui.py: Defines a graphical user interface for interacting with informati
 
 client_code.py: A layer of code that is between the user interface and the "back end" defined in society_hierarchy.py. It uses the code you will be writing in society_hierarchy.py to make the UI work. You may look through this file to see example usage of the methods and functions you will implement. Do not modify this file.
 
-In addition, we are providing:
+citizens.csv: A sample file describing a robot society hierarchy.
 
-citizens.csv: A sample file describing a robot society hierarchy. You can use it to create a society for testing by: (a) uncommenting the soc = create_from_file_demo() line at the end of society_hierarchy.py, or (b) using the "Load society from file" button in the UI and choosing this file.
-
-a2_starter_tests.py: Some basic tests cases that you should add to in order to test your own code.
+a2_starter_tests.py: Some basic tests cases to test your own code.
 
 
 
 Problem description
 
-The code you'll be working on for this assignment, in file society_hierarchy.py, consists of three main classes:
+The code consists of three main classes:
 
 Citizen: A class representing a citizen in a Martian Robot Society.
 Society: A class representing the entire Martian Robot Society.
 DistrictLeader: A class representing a district leader, a special type of
 citizen.
-Please read through the following sections carefully to understand what is required for this program. Afterwards, we'll provide a breakdown of the tasks.
+
 
 Citizen class
 As mentioned before, each node of the Martian Robot Society tree represents a citizen of this society. Each citizen will have its own set of characteristics:their citizen ID number, manufacturer (the name of which company manufactured this particular robot), model year, job, and their rating (kind of like a credit score; basically a measure of how good of a citizen they are, represented as an integer from 0 to 100).
 
 Each citizen may have one superior and any number of subordinates. For example, consider the following tree of citizens (attributes are labelled by name only for the root Citizen, to avoid clutter):
 
-Diagram of a simple hierarchy
+
+
+
+
+
 
 Notice that ID numbers are unique to citizens: the numbers used don't matter, but they will always be positive integers and there cannot be any duplicates within the hierarchy.
 
