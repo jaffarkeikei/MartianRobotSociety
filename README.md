@@ -56,8 +56,7 @@ DistrictLeader class
 DistrictLeader is a subclass of Citizen. While district leaders are fairly similar to a regular citizen, they also keep track of the district that they lead. All subordinates (both direct and indirect) are said to be part of (or "belong to") the district. For example, consider the following hierarchy (district leaders are highlighted in blue; attributes are labelled by name only for the root Citizen, to avoid clutter):
 
 
-
-![Uploading district_society.png…]()
+![district_society](https://user-images.githubusercontent.com/94993837/188036727-e7ddd13b-135a-4541-8f15-6e70fd23c159.png)
 
 
 
