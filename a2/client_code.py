@@ -1,34 +1,4 @@
-"""Assignment 2: Client Code
-
-CSC148, Winter 2022
-
-This code is provided solely for the personal and private use of students
-taking the CSC148 course at the University of Toronto. Copying for purposes
-other than this use is expressly prohibited. All forms of distribution of this
-code, whether as given or with any changes, are expressly prohibited.
-
-Authors: Sadia Sharmin, Diane Horton, Dina Sabie, Sophia Huynh, and
-         Jonathan Calver.
-
-All of the files in this directory and all subdirectories are:
-Copyright (c) 2022 Sadia Sharmin, Diane Horton, Dina Sabie, Sophia Huynh, and
-                   Jonathan Calver
-
-=== Module description ===
-This module contains client code that calls upon the classes specified in
-society_hierarchy.py.
-
-You should NOT modify this code.
-
-This code is used by society_ui.py to demonstrate sample usage of how the
-functionality of the code you are completing in society_hierarchy.py might be
-used in an application.
-
-This code is provided solely for the personal and private use of
-students taking the CSC148 course at the University of Toronto.
-Copying for purposes other than this use is expressly prohibited.
-All forms of distribution of this code, whether as given or with
-any changes, are expressly prohibited.
+"""Client Code
 """
 
 from typing import Optional, Tuple, List
