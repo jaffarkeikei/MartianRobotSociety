@@ -1,25 +1,5 @@
-"""Assignment 2: Society Hierarchy (all tasks)
+"""Society Hierarchy (all tasks)
 
-CSC148, Winter 2022
-
-This code is provided solely for the personal and private use of students
-taking the CSC148 course at the University of Toronto. Copying for purposes
-other than this use is expressly prohibited. All forms of distribution of this
-code, whether as given or with any changes, are expressly prohibited.
-
-Authors: Sadia Sharmin, Diane Horton, Dina Sabie, Sophia Huynh, and
-         Jonathan Calver.
-
-All of the files in this directory and all subdirectories are:
-Copyright (c) 2022 Sadia Sharmin, Diane Horton, Dina Sabie, Sophia Huynh, and
-                   Jonathan Calver
-
-=== Module description ===
-This module contains all of the classes necessary to model the entities in a
-society's hierarchy.
-
-REMINDER: You must NOT use list.sort() or sorted() in your code. Instead, use
-the merge() function we provide for you below.
 """
 from __future__ import annotations
 from typing import List, Optional, TextIO, Any
