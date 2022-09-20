@@ -1,30 +1,9 @@
-"""Assignment 2: User Interface
-
-CSC148, Winter 2022
-
-This code is provided solely for the personal and private use of students
-taking the CSC148 course at the University of Toronto. Copying for purposes
-other than this use is expressly prohibited. All forms of distribution of this
-code, whether as given or with any changes, are expressly prohibited.
-
-Authors: Sadia Sharmin, Diane Horton, Dina Sabie, Sophia Huynh, and
-         Jonathan Calver.
-
-All of the files in this directory and all subdirectories are:
-Copyright (c) 2022 Sadia Sharmin, Diane Horton, Dina Sabie, Sophia Huynh, and
-                   Jonathan Calver
+"""User Interface
 
 === Module description ===
 This module contains code to create an interface using the
 classes specified in society_hierarchy.py and the client code in
 client_code.py.
-
-You should NOT modify this code.
-
-You do not need to understand any of the code in this file in order to complete
-the assignment. You may find it useful to run this file as one way to check that
-your code is working, but you should also develop pytests to fully test your
-solution.
 """
 from typing import Optional, List, Callable
 from tkinter import *
