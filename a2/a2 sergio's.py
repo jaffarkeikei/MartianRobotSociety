@@ -1,26 +1,4 @@
-"""CSC148 Assignment 1: Sample tests
-
-=== CSC148 Winter 2022 ===
-Department of Computer Science,
-University of Toronto
-
-=== Module description ===
-This module contains sample tests for Assignment 2.
-
-Warning: This is an extremely incomplete set of tests! Add your own tests
-to be confident that your code is correct.
-
-Note: this file is to only help you; you will not submit it when you hand in
-the assignment.
-
-This code is provided solely for the personal and private use of
-students taking the CSC148 course at the University of Toronto.
-Copying for purposes other than this use is expressly prohibited.
-All forms of distribution of this code, whether as given or with
-any changes, are expressly prohibited.
-
-All of the files in this directory and all subdirectories are:
-Copyright (c) University of Toronto
+"""Sample tests
 """
 # Note that some tests under each Task subheading depend on other methods
 # implemented within that task, and previous tasks before it
