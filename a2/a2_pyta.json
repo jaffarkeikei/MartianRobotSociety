@@ -1,3 +1,0 @@
-{"allowed-import-modules": ["python_ta", "doctest", "typing", "__future__"],
- "max-args": 7}
-
